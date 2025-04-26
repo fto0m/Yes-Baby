@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Items - Yes Baby</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Items Management</h1>
+    </header>
+
+    <!-- Top Controls (Search and Delete) -->
+    <section class="top-controls">
+        <!-- Search Product Section -->
+        <div class="search-product-section">
+            <h2>Search Product</h2>
+            <form>
+                <input type="text" placeholder="Search by Item ID or Name" required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
+        <!-- Delete Product Section -->
+        <div class="delete-product-section">
+            <h2>Delete Product</h2>
+            <form>
+                <input type="text" placeholder="Item ID to Delete" required>
+                <button type="submit">Delete</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <h2>Available Products</h2>
+        <div class="products">
+            <!-- Example Product -->
+            <div class="product">
+                <p><strong>Item ID:</strong> 001</p>
+                <p><strong>Name:</strong> Toy Car</p>
+                <p><strong>Price:</strong> $20</p>
+                <p><strong>Publisher ID:</strong> P100</p>
+            </div>
+
+            <div class="product">
+                <p><strong>Item ID:</strong> 002</p>
+                <p><strong>Name:</strong> Lego Set</p>
+                <p><strong>Price:</strong> $35</p>
+                <p><strong>Publisher ID:</strong> P101</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add Product Button -->
+    <section class="add-product-section">
+        <button onclick="window.location.href='add_product.html'">Add New Product</button>
+    </section>
+
+</body>
+</html>
